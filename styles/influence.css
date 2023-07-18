@@ -4,6 +4,49 @@
 *{
     font-family: 'Poppins', sans-serif;
 
+}
 
-
+/* header styles */
+header{
+    background-color: #FFF;
+    padding: 80px 120px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+   font-size: 24px;
+   font-weight: 700;
+   color: #3A3A3A; 
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+list-style: none;
+margin-right: 30px;
+font-weight: 600;
+font-size: 16px;
+}
+nav li a{
+    text-decoration: none;
+    color: #3A3A3A;
+}
+/* banner styles */
+.banner-content{
+  max-width: 582px;
+  text-align: left;
+  margin: 0 auto;  
+}
+.banner-title{
+    font-size: 52px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
 }
